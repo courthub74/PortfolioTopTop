@@ -1,0 +1,145 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap');
+
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+$aboutgreen: #0E4946;
+$skillsteal: #146166;
+$hoverfonts: #B7BCD6;
+$techcirclegreen: #05607D;
+
+// FOOTER
+$firstblue: #58a6ff;
+$secondblue: #6287cf;
+$thirdblue: rgb(85, 85, 255);
+
+* {
+    body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        // WHOLE PORTFOLIO
+        .house {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            // HOME PAGE
+            #homeselect {
+                    background-color: $mainblue;
+                    height: 100vh;
+                    max-height: 100vh;
+                    // width: 100vw;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                .home {
+                    .tophome {
+                        display: flex;
+                        justify-content: space-between;
+                        img {
+                            width: 8vw;
+                            height: 8vw;
+                            margin: 2vh 0 0 3vw;
+                        }
+                        .navbar {
+                            margin: 4vh 9vw 0 0;
+                            ul {
+                                text-align: center;
+                                list-style: none;
+                                margin: 0 0 0 0;
+                                li {
+                                    display: inline;
+                                    font-size: 1vw;
+                                    font-weight: bold;
+                                    padding: 0 1vw 0 0;
+                                    a {
+                                        cursor: pointer;
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                    #selected {
+                                        background-color: white;
+                                        color: $mainblue;
+                                        border-radius: 5px;
+                                        padding: .4vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bothome {
+                        .grid-container {
+                            display: grid;
+                            margin: 0 10vw 0 0;
+                            .header {
+                                text-align: center;
+                                grid-column: 1;
+                                grid-row: 2;
+                                margin: 20vh 0 0 10vw;
+                                #header {
+                                    font-size: 2.5vw;
+                                }
+                                #para {
+                                    font-size: 1.2vw;
+                                }
+                            }
+                            .socials {
+                                grid-column: 1;
+                                grid-row: 3;
+                                display: flex;
+                                align-items: center;
+                                margin: 2vh 0 0 17vw;
+                                a {
+                                    #github {
+                                        width: 3vw;
+                                        height: 3vw;
+                                    }
+                                    #linkedin {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        margin: 0 0 0 0;
+                                    }
+                                    #twitter {
+                                        width: 4vw;
+                                        height: 4vw;
+                                        margin: 0 0 0 0;
+                                    }
+                                    #instagram {
+                                        width: 4.6vw;
+                                        height: 4.6vw;
+                                        margin: 0 0 0 0;
+                                    }
+                                    #facebook {
+                                        width: 3vw;
+                                        height: 3vw;
+                                        margin: 0 0 0 0;
+                                    }
+                                }
+                            }
+                            .photo {
+                                grid-column: 2;
+                                grid-row: 2 / span 3;
+                                margin: 5vh 0 0 15vw;
+                                img {
+                                    width: 30vw;
+                                    height: 30vw;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // SKILLS SECTION
+            #skillsselect {
+                    background-color: $skillsteal;
+                    height: 100vh;
+                    color: white;
+                .skills {
+                    
+            } 
+       }
+        }
+    }
+}

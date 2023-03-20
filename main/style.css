@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap");
+* body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+* body .house {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+* body .house #homeselect {
+  background-color: #080E2F;
+  height: 100vh;
+  max-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+* body .house #homeselect .home .tophome {
+  display: flex;
+  justify-content: space-between;
+}
+* body .house #homeselect .home .tophome img {
+  width: 8vw;
+  height: 8vw;
+  margin: 2vh 0 0 3vw;
+}
+* body .house #homeselect .home .tophome .navbar {
+  margin: 4vh 9vw 0 0;
+}
+* body .house #homeselect .home .tophome .navbar ul {
+  text-align: center;
+  list-style: none;
+  margin: 0 0 0 0;
+}
+* body .house #homeselect .home .tophome .navbar ul li {
+  display: inline;
+  font-size: 1vw;
+  font-weight: bold;
+  padding: 0 1vw 0 0;
+}
+* body .house #homeselect .home .tophome .navbar ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+* body .house #homeselect .home .tophome .navbar ul li #selected {
+  background-color: white;
+  color: #080E2F;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* body .house #homeselect .home .bothome .grid-container {
+  display: grid;
+  margin: 0 10vw 0 0;
+}
+* body .house #homeselect .home .bothome .grid-container .header {
+  text-align: center;
+  grid-column: 1;
+  grid-row: 2;
+  margin: 20vh 0 0 10vw;
+}
+* body .house #homeselect .home .bothome .grid-container .header #header {
+  font-size: 2.5vw;
+}
+* body .house #homeselect .home .bothome .grid-container .header #para {
+  font-size: 1.2vw;
+}
+* body .house #homeselect .home .bothome .grid-container .socials {
+  grid-column: 1;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  margin: 2vh 0 0 17vw;
+}
+* body .house #homeselect .home .bothome .grid-container .socials a #github {
+  width: 3vw;
+  height: 3vw;
+}
+* body .house #homeselect .home .bothome .grid-container .socials a #linkedin {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 0;
+}
+* body .house #homeselect .home .bothome .grid-container .socials a #twitter {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 0;
+}
+* body .house #homeselect .home .bothome .grid-container .socials a #instagram {
+  width: 4.6vw;
+  height: 4.6vw;
+  margin: 0 0 0 0;
+}
+* body .house #homeselect .home .bothome .grid-container .socials a #facebook {
+  width: 3vw;
+  height: 3vw;
+  margin: 0 0 0 0;
+}
+* body .house #homeselect .home .bothome .grid-container .photo {
+  grid-column: 2;
+  grid-row: 2/span 3;
+  margin: 5vh 0 0 15vw;
+}
+* body .house #homeselect .home .bothome .grid-container .photo img {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+* body .house #skillsselect {
+  background-color: #146166;
+  height: 100vh;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
