@@ -17,6 +17,8 @@ $thirdblue: rgb(85, 85, 255);
 * {
     body {
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         font-family: 'Inter', sans-serif;
         // WHOLE PORTFOLIO
         .house {
@@ -26,14 +28,20 @@ $thirdblue: rgb(85, 85, 255);
             width: 100%;
             // HOME PAGE
             #homeselect {
+                    // background-color: $mainblue;
+                    // // height: 100vw;
+                    // max-height: 120vh;
+                    // // width: 100vw;
+                    // color: white;
+                    // display: flex;
+                    // flex-direction: column;
+                .home {
                     background-color: $mainblue;
                     height: 100vh;
-                    max-height: 100vh;
-                    // width: 100vw;
+                    // position: relative;
                     color: white;
                     display: flex;
                     flex-direction: column;
-                .home {
                     .tophome {
                         display: flex;
                         justify-content: space-between;
